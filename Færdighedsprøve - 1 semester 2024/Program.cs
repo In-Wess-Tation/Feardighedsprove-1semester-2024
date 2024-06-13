@@ -80,7 +80,7 @@
             Console.WriteLine(member.PrintMemberList());
 
 
-            member.UpdateMember(5, "Bob", "Mortensvej 44", "15/08/1999", 20167954, "RandomEmail6@gmail.com", dog.TheDogList[5]);
+            member.UpdateMember(5, "Bob", "Mortensvej 44", "15/08/1999", 20167954, "RandomEmail6@gmail.com");
             Console.WriteLine("List of Members, updated: ");
             Console.WriteLine(member.PrintMemberList());
 

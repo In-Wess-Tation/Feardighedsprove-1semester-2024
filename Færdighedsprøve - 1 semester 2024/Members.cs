@@ -77,7 +77,7 @@ namespace Færdighedsprøve___1_semester_2024
         }*/
 
 
-        public void UpdateMember(int id, string name, string address, string birthDate, int phone, string email, Dog dog)
+        public void UpdateMember(int id, string name, string address, string birthDate, int phone, string email)
         {
             bool found = false;
             int index = 0;
@@ -91,7 +91,6 @@ namespace Færdighedsprøve___1_semester_2024
                     TheMemberList[index].BirthDate = birthDate;
                     TheMemberList[index].Phone = phone;
                     TheMemberList[index].Email = email;
-                    TheMemberList[index].Dog = dog;
                 }
                 index++;
             }
@@ -116,10 +115,10 @@ namespace Færdighedsprøve___1_semester_2024
         }
 
 
-      public void RegisterDog()
+     /* public void RegisterDog()
         {
             new Dog { Id = 9, Name = "Futte", Race = "Blanding", YearOfBirth = 2010 };
-        }
+        }*/
 
 
 
