@@ -24,7 +24,7 @@ namespace Færdighedsprøve___1_semester_2024
 
         public override string ToString()
         {
-            return "ID " + Id + " Dogs name: " + Name + " Race: " + Race + " Birth year: " + YearOfBirth;
+            return "ID: " + Id + ", Dogs name: " + Name + ", Race: " + Race + ", Birth year: " + YearOfBirth + Environment.NewLine;
         }
 
 
